@@ -1,0 +1,168 @@
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+
+.ftitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Button */
+.btn {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+    background: none;
+    font-weight: 400;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #00e0d0;
+    border-color: #00e0d0;
+
+}
+
+/* Wrapper */
+
+.wrapper {
+    
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: auto;
+    
+    
+}
+
+/* header */
+
+.header {
+    display: flex;
+    width: 100%;
+    z-index: 3;
+    position: relative;
+    justify-content: center;
+    
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+
+
+
+/* Navigation */
+.nav {
+    display: flex;
+    text-transform: uppercase;  
+}
+
+.nav__link {
+    margin-left: 25px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    color: #ffffff;
+    cursor: pointer;
+    
+    
+    
+}
+
+.nav__link:hover {
+    color: #00e0d0;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+/* Intro */
+
+
+
+
+
+
+.intro {
+    background: #000 url(img/bg-forest.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 670px;
+    z-index: 1;
+    padding-top: 80px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.intro__inner {
+    background: rgba(47, 40, 78, 0.85);
+    width: 100%;
+    height: 100%;
+    
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.intro__bg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro__tt {
+    z-index: 3;
+    position: relative;
+    padding-top: 230px;
+    margin: 0 120px;
+}
+
+.intro__title {
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+    padding-bottom: 25px;
+    font-family: 'Playfair Display', serif;
+    
+    
+}
+.intro__title:after {
+    content: "";
+    border-bottom: 1px solid #00e0d0;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+
+
+.intro__text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
