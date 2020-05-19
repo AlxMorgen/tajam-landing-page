@@ -1,11 +1,19 @@
-/* font-family: 'Playfair Display', serif;
-font-family: 'Roboto', sans-serif;
- */
+.text--playfair {
+    font-family: 'Playfair Display', serif;
+}
+.text--roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
+}
+
+h1 {
+    font-size: 14px;
 }
 
 /* Button */
@@ -40,7 +48,7 @@ body {
     
     max-width: 890px;
     width: 100%;
-    margin: 0 auto;
+    margin: 70px auto;
     padding: 0;
     height: auto;
     
@@ -156,7 +164,7 @@ body {
 
 .story__inner {
     display: flex;
-    padding: 70px 0;
+    
     padding-left: 40px;
 }
 
@@ -168,13 +176,16 @@ body {
     width: 50%;
 }
 
-.story__title {
+.title {
     font-size: 22px;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #413d4b;
+    
     
 }
-.story__text {
+.text {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     color: #959399;
@@ -236,3 +247,77 @@ body {
     text-transform: uppercase;
     margin-top: 30px;
 }
+
+
+/*  Expertise */
+
+.expertise {
+    text-align: center;
+}
+
+.expertise .title {
+    margin-bottom: 10px;
+    color: #413d4b;
+    letter-spacing: 0.05em;
+}
+
+.expertise p::after {
+    content: "";
+    color: #00e0d0;
+    width: 50px;
+    border-bottom: 2px solid #c6c4c9;
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+    
+}
+
+.expertise .text {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    color: #a4a4a4;
+}
+
+.expertise__inner {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.expertise__item {
+    width: 33.33333%;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.expertise__img {
+    
+    width: auto;
+    height: 50px;
+
+}
+
+.expertise__title {
+    font-style: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+
+.expertise__text {
+    font-style: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    
+    margin-bottom: 10px;
+    color: #a4a4a4;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
