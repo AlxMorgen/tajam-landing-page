@@ -581,3 +581,110 @@ h1 {
     margin: 0 auto;
     padding: 0 auto;
 }
+
+/* Contact */
+
+.contact {
+    background: url('img/conrtact_bg.jpg') center no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: absolute;
+    width: 100%;
+
+}
+
+.contact::before {
+    content: "";
+    background:  rgba(66, 50, 107, 0.85);
+    background-size: cover;
+    height: 400px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.contact__inner {
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+    display: flex;
+}
+
+
+
+.contact__item {
+    width: 33.33333%;
+    margin: 0 30px 0 0;
+    
+}
+
+.contact__item:last-child{
+    margin-right: 0;
+    
+}
+
+.contact__text {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #e5e5e5;
+    margin: 0;
+    line-height: 26px;
+    margin-bottom: 7px;
+}
+
+.contact__title {
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    font-weight: 900;
+    color: #e5e5e5;
+    text-transform: uppercase;
+    margin-bottom: 41px;
+}
+
+.contact__adress {
+    display: flex;
+    justify-content: start;
+}
+
+.adress__img {
+    height: 15px;
+    width: auto;
+    margin-right: 13px;
+    margin-top: 4px;
+}
+
+.contact__logo {
+    margin-bottom: 20px;
+}
+
+
+.news__input {
+    background: none;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #e5e5e5;
+    padding: 14px 30px;
+    line-height: 0;
+    border: 1px solid #e5e5e5;
+}
+
+.btn__news {
+    padding: 10px 22px;
+    border: 1px solid #e5e5e5;
+    background: rgba(229, 228, 231, 0.5);
+    cursor: pointer;
+}
+
+.btn__news:hover {
+    background: rgba(66, 50, 107, 0.85);
+    opacity: 0.7;
+    
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
