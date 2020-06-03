@@ -1,7 +1,7 @@
 /* testimonials */
 
 let slider = $("#testimonialsSlider");
-let appendDots = $("#testiphoto");
+let slider__intro = $("#slider__intro")
 slider.slick({
     infinite: true,
     slidesToShow: 1,
@@ -14,3 +14,14 @@ slider.slick({
 
   
 
+  slider__intro.slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: false,
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 2000
+    
+  });
